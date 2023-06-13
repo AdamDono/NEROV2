@@ -98,8 +98,10 @@
 		083B82222A38A6BE00E86BA8 /* NEROV2 */ = {
 			isa = PBXGroup;
 			children = (
-				083B82232A38A6BE00E86BA8 /* NEROV2App.swift */,
-				083B82252A38A6BE00E86BA8 /* ContentView.swift */,
+				083B82532A38A6E600E86BA8 /* Component */,
+				083B82522A38A6DF00E86BA8 /* App */,
+				083B82562A38A6F300E86BA8 /* Core */,
+				083B82542A38A6ED00E86BA8 /* Model */,
 				083B82272A38A6C000E86BA8 /* Assets.xcassets */,
 				083B822C2A38A6C000E86BA8 /* Persistence.swift */,
 				083B822E2A38A6C000E86BA8 /* NEROV2.xcdatamodeld */,
@@ -131,6 +133,60 @@
 				083B82452A38A6C000E86BA8 /* NEROV2UITestsLaunchTests.swift */,
 			);
 			path = NEROV2UITests;
+			sourceTree = "<group>";
+		};
+		083B82522A38A6DF00E86BA8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				083B82232A38A6BE00E86BA8 /* NEROV2App.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		083B82532A38A6E600E86BA8 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		083B82542A38A6ED00E86BA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		083B82562A38A6F300E86BA8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				083B82592A38A80800E86BA8 /* Profile */,
+				083B82582A38A7E000E86BA8 /* Authentication  */,
+				083B82572A38A7B700E86BA8 /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		083B82572A38A7B700E86BA8 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				083B82252A38A6BE00E86BA8 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		083B82582A38A7E000E86BA8 /* Authentication  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Authentication ";
+			sourceTree = "<group>";
+		};
+		083B82592A38A80800E86BA8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
