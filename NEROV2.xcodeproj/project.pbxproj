@@ -16,6 +16,7 @@
 		083B823A2A38A6C000E86BA8 /* NEROV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083B82392A38A6C000E86BA8 /* NEROV2Tests.swift */; };
 		083B82442A38A6C000E86BA8 /* NEROV2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083B82432A38A6C000E86BA8 /* NEROV2UITests.swift */; };
 		083B82462A38A6C000E86BA8 /* NEROV2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083B82452A38A6C000E86BA8 /* NEROV2UITestsLaunchTests.swift */; };
+		083B825B2A38A97B00E86BA8 /* LoginView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 083B825A2A38A97B00E86BA8 /* LoginView .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		083B823F2A38A6C000E86BA8 /* NEROV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NEROV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		083B82432A38A6C000E86BA8 /* NEROV2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEROV2UITests.swift; sourceTree = "<group>"; };
 		083B82452A38A6C000E86BA8 /* NEROV2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEROV2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		083B825A2A38A97B00E86BA8 /* LoginView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginView .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 		083B82582A38A7E000E86BA8 /* Authentication  */ = {
 			isa = PBXGroup;
 			children = (
+				083B825A2A38A97B00E86BA8 /* LoginView .swift */,
 			);
 			path = "Authentication ";
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				083B822D2A38A6C000E86BA8 /* Persistence.swift in Sources */,
+				083B825B2A38A97B00E86BA8 /* LoginView .swift in Sources */,
 				083B82262A38A6BE00E86BA8 /* ContentView.swift in Sources */,
 				083B82242A38A6BE00E86BA8 /* NEROV2App.swift in Sources */,
 				083B82302A38A6C000E86BA8 /* NEROV2.xcdatamodeld in Sources */,
