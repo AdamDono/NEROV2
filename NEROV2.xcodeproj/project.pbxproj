@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		083B82242A38A6BE00E86BA8 /* NEROV2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083B82232A38A6BE00E86BA8 /* NEROV2App.swift */; };
+		083B82262A38A6BE00E86BA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083B82252A38A6BE00E86BA8 /* ContentView.swift */; };
+		083B82282A38A6C000E86BA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083B82272A38A6C000E86BA8 /* Assets.xcassets */; };
+		083B822B2A38A6C000E86BA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083B822A2A38A6C000E86BA8 /* Preview Assets.xcassets */; };
+		083B822D2A38A6C000E86BA8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083B822C2A38A6C000E86BA8 /* Persistence.swift */; };
+		083B82302A38A6C000E86BA8 /* NEROV2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 083B822E2A38A6C000E86BA8 /* NEROV2.xcdatamodeld */; };
+		083B823A2A38A6C000E86BA8 /* NEROV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083B82392A38A6C000E86BA8 /* NEROV2Tests.swift */; };
+		083B82442A38A6C000E86BA8 /* NEROV2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083B82432A38A6C000E86BA8 /* NEROV2UITests.swift */; };
+		083B82462A38A6C000E86BA8 /* NEROV2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083B82452A38A6C000E86BA8 /* NEROV2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		083B82362A38A6C000E86BA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 083B82182A38A6BE00E86BA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 083B821F2A38A6BE00E86BA8;
+			remoteInfo = NEROV2;
+		};
+		083B82402A38A6C000E86BA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 083B82182A38A6BE00E86BA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 083B821F2A38A6BE00E86BA8;
+			remoteInfo = NEROV2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		083B82202A38A6BE00E86BA8 /* NEROV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NEROV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		083B82232A38A6BE00E86BA8 /* NEROV2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEROV2App.swift; sourceTree = "<group>"; };
+		083B82252A38A6BE00E86BA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		083B82272A38A6C000E86BA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		083B822A2A38A6C000E86BA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		083B822C2A38A6C000E86BA8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		083B822F2A38A6C000E86BA8 /* NEROV2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NEROV2.xcdatamodel; sourceTree = "<group>"; };
+		083B82352A38A6C000E86BA8 /* NEROV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NEROV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		083B82392A38A6C000E86BA8 /* NEROV2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEROV2Tests.swift; sourceTree = "<group>"; };
+		083B823F2A38A6C000E86BA8 /* NEROV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NEROV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		083B82432A38A6C000E86BA8 /* NEROV2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEROV2UITests.swift; sourceTree = "<group>"; };
+		083B82452A38A6C000E86BA8 /* NEROV2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEROV2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		083B821D2A38A6BE00E86BA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083B82322A38A6C000E86BA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083B823C2A38A6C000E86BA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		083B82172A38A6BE00E86BA8 = {
+			isa = PBXGroup;
+			children = (
+				083B82222A38A6BE00E86BA8 /* NEROV2 */,
+				083B82382A38A6C000E86BA8 /* NEROV2Tests */,
+				083B82422A38A6C000E86BA8 /* NEROV2UITests */,
+				083B82212A38A6BE00E86BA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		083B82212A38A6BE00E86BA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				083B82202A38A6BE00E86BA8 /* NEROV2.app */,
+				083B82352A38A6C000E86BA8 /* NEROV2Tests.xctest */,
+				083B823F2A38A6C000E86BA8 /* NEROV2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		083B82222A38A6BE00E86BA8 /* NEROV2 */ = {
+			isa = PBXGroup;
+			children = (
+				083B82232A38A6BE00E86BA8 /* NEROV2App.swift */,
+				083B82252A38A6BE00E86BA8 /* ContentView.swift */,
+				083B82272A38A6C000E86BA8 /* Assets.xcassets */,
+				083B822C2A38A6C000E86BA8 /* Persistence.swift */,
+				083B822E2A38A6C000E86BA8 /* NEROV2.xcdatamodeld */,
+				083B82292A38A6C000E86BA8 /* Preview Content */,
+			);
+			path = NEROV2;
+			sourceTree = "<group>";
+		};
+		083B82292A38A6C000E86BA8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				083B822A2A38A6C000E86BA8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		083B82382A38A6C000E86BA8 /* NEROV2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				083B82392A38A6C000E86BA8 /* NEROV2Tests.swift */,
+			);
+			path = NEROV2Tests;
+			sourceTree = "<group>";
+		};
+		083B82422A38A6C000E86BA8 /* NEROV2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				083B82432A38A6C000E86BA8 /* NEROV2UITests.swift */,
+				083B82452A38A6C000E86BA8 /* NEROV2UITestsLaunchTests.swift */,
+			);
+			path = NEROV2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		083B821F2A38A6BE00E86BA8 /* NEROV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 083B82492A38A6C000E86BA8 /* Build configuration list for PBXNativeTarget "NEROV2" */;
+			buildPhases = (
+				083B821C2A38A6BE00E86BA8 /* Sources */,
+				083B821D2A38A6BE00E86BA8 /* Frameworks */,
+				083B821E2A38A6BE00E86BA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NEROV2;
+			productName = NEROV2;
+			productReference = 083B82202A38A6BE00E86BA8 /* NEROV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		083B82342A38A6C000E86BA8 /* NEROV2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 083B824C2A38A6C000E86BA8 /* Build configuration list for PBXNativeTarget "NEROV2Tests" */;
+			buildPhases = (
+				083B82312A38A6C000E86BA8 /* Sources */,
+				083B82322A38A6C000E86BA8 /* Frameworks */,
+				083B82332A38A6C000E86BA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				083B82372A38A6C000E86BA8 /* PBXTargetDependency */,
+			);
+			name = NEROV2Tests;
+			productName = NEROV2Tests;
+			productReference = 083B82352A38A6C000E86BA8 /* NEROV2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		083B823E2A38A6C000E86BA8 /* NEROV2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 083B824F2A38A6C000E86BA8 /* Build configuration list for PBXNativeTarget "NEROV2UITests" */;
+			buildPhases = (
+				083B823B2A38A6C000E86BA8 /* Sources */,
+				083B823C2A38A6C000E86BA8 /* Frameworks */,
+				083B823D2A38A6C000E86BA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				083B82412A38A6C000E86BA8 /* PBXTargetDependency */,
+			);
+			name = NEROV2UITests;
+			productName = NEROV2UITests;
+			productReference = 083B823F2A38A6C000E86BA8 /* NEROV2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		083B82182A38A6BE00E86BA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					083B821F2A38A6BE00E86BA8 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					083B82342A38A6C000E86BA8 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 083B821F2A38A6BE00E86BA8;
+					};
+					083B823E2A38A6C000E86BA8 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 083B821F2A38A6BE00E86BA8;
+					};
+				};
+			};
+			buildConfigurationList = 083B821B2A38A6BE00E86BA8 /* Build configuration list for PBXProject "NEROV2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 083B82172A38A6BE00E86BA8;
+			productRefGroup = 083B82212A38A6BE00E86BA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				083B821F2A38A6BE00E86BA8 /* NEROV2 */,
+				083B82342A38A6C000E86BA8 /* NEROV2Tests */,
+				083B823E2A38A6C000E86BA8 /* NEROV2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		083B821E2A38A6BE00E86BA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083B822B2A38A6C000E86BA8 /* Preview Assets.xcassets in Resources */,
+				083B82282A38A6C000E86BA8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083B82332A38A6C000E86BA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083B823D2A38A6C000E86BA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		083B821C2A38A6BE00E86BA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083B822D2A38A6C000E86BA8 /* Persistence.swift in Sources */,
+				083B82262A38A6BE00E86BA8 /* ContentView.swift in Sources */,
+				083B82242A38A6BE00E86BA8 /* NEROV2App.swift in Sources */,
+				083B82302A38A6C000E86BA8 /* NEROV2.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083B82312A38A6C000E86BA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083B823A2A38A6C000E86BA8 /* NEROV2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083B823B2A38A6C000E86BA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083B82462A38A6C000E86BA8 /* NEROV2UITestsLaunchTests.swift in Sources */,
+				083B82442A38A6C000E86BA8 /* NEROV2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		083B82372A38A6C000E86BA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 083B821F2A38A6BE00E86BA8 /* NEROV2 */;
+			targetProxy = 083B82362A38A6C000E86BA8 /* PBXContainerItemProxy */;
+		};
+		083B82412A38A6C000E86BA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 083B821F2A38A6BE00E86BA8 /* NEROV2 */;
+			targetProxy = 083B82402A38A6C000E86BA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		083B82472A38A6C000E86BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		083B82482A38A6C000E86BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		083B824A2A38A6C000E86BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NEROV2/Preview Content\"";
+				DEVELOPMENT_TEAM = MG923NRGJV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comAdam.NEROV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		083B824B2A38A6C000E86BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NEROV2/Preview Content\"";
+				DEVELOPMENT_TEAM = MG923NRGJV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comAdam.NEROV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		083B824D2A38A6C000E86BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MG923NRGJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comAdam.NEROV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NEROV2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NEROV2";
+			};
+			name = Debug;
+		};
+		083B824E2A38A6C000E86BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MG923NRGJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comAdam.NEROV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NEROV2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NEROV2";
+			};
+			name = Release;
+		};
+		083B82502A38A6C000E86BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MG923NRGJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comAdam.NEROV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NEROV2;
+			};
+			name = Debug;
+		};
+		083B82512A38A6C000E86BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MG923NRGJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comAdam.NEROV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NEROV2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		083B821B2A38A6BE00E86BA8 /* Build configuration list for PBXProject "NEROV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083B82472A38A6C000E86BA8 /* Debug */,
+				083B82482A38A6C000E86BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		083B82492A38A6C000E86BA8 /* Build configuration list for PBXNativeTarget "NEROV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083B824A2A38A6C000E86BA8 /* Debug */,
+				083B824B2A38A6C000E86BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		083B824C2A38A6C000E86BA8 /* Build configuration list for PBXNativeTarget "NEROV2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083B824D2A38A6C000E86BA8 /* Debug */,
+				083B824E2A38A6C000E86BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		083B824F2A38A6C000E86BA8 /* Build configuration list for PBXNativeTarget "NEROV2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083B82502A38A6C000E86BA8 /* Debug */,
+				083B82512A38A6C000E86BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		083B822E2A38A6C000E86BA8 /* NEROV2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				083B822F2A38A6C000E86BA8 /* NEROV2.xcdatamodel */,
+			);
+			currentVersion = 083B822F2A38A6C000E86BA8 /* NEROV2.xcdatamodel */;
+			path = NEROV2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 083B82182A38A6BE00E86BA8 /* Project object */;
+}
