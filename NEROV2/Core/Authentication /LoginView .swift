@@ -30,14 +30,28 @@ struct LoginView_: View {
                         .autocapitalization(.none)
                     
                     
-                    InputView (text: $password, title: "Password", placeholder: "Enter Your Password")
-                        .autocapitalization(.none)
+                    InputView (text: $password, title: "Password", placeholder: "Enter Your Password",
+                    isSecureField: true)
+                        
                 }
+                .padding(.horizontal)
+                .padding(.top, 18)
                 
                 //signinbutton
+                Button { print ("Log User In..")
+                    
+                } label: {
+                HStack{
+                    Text ("Sign In")
+                        .fontWeight(.semibold)
+                    Image(systemName: "arrow.right")
+                    
+                }
+            }
                 Spacer()
                 //signupbotton
                 
+              
             }
             
             
