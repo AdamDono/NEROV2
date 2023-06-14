@@ -47,7 +47,14 @@ struct LoginView_: View {
                     Image(systemName: "arrow.right")
                     
                 }
+                .foregroundColor(.white)
+                .frame(width: UIScreen.main.bounds.width - 32,height: 48)
             }
+                .background(Color(.systemBlue))
+                .cornerRadius(10)
+                
+                
+                                 
                 Spacer()
                 //signupbotton
                 
