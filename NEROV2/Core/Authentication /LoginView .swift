@@ -14,14 +14,15 @@ struct LoginView_: View {
             VStack{
                 //image
                 Image("nero-low-resolution-logo-color-on-transparent-background")
-                    .resizable()
+                    .resizable(capInsets: EdgeInsets(top: 0.0, leading: 0.0, bottom: 0.0, trailing: 0.0))
                     .scaledToFill()
                     .frame(width:100, height:120)
+                    .padding(.vertical, 32)
                 
                 //form fields
                 
                 //signinbutton
-                
+                Spacer()
                 //signupbotton
                 
             }

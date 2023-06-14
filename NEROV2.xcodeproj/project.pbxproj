@@ -17,6 +17,7 @@
 		083B82442A38A6C000E86BA8 /* NEROV2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083B82432A38A6C000E86BA8 /* NEROV2UITests.swift */; };
 		083B82462A38A6C000E86BA8 /* NEROV2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083B82452A38A6C000E86BA8 /* NEROV2UITestsLaunchTests.swift */; };
 		083B825B2A38A97B00E86BA8 /* LoginView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 083B825A2A38A97B00E86BA8 /* LoginView .swift */; };
+		083B825D2A39B25A00E86BA8 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083B825C2A39B25A00E86BA8 /* InputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		083B82432A38A6C000E86BA8 /* NEROV2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEROV2UITests.swift; sourceTree = "<group>"; };
 		083B82452A38A6C000E86BA8 /* NEROV2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEROV2UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		083B825A2A38A97B00E86BA8 /* LoginView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginView .swift"; sourceTree = "<group>"; };
+		083B825C2A39B25A00E86BA8 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 		083B82532A38A6E600E86BA8 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				083B825C2A39B25A00E86BA8 /* InputView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				083B822D2A38A6C000E86BA8 /* Persistence.swift in Sources */,
 				083B825B2A38A97B00E86BA8 /* LoginView .swift in Sources */,
 				083B82262A38A6BE00E86BA8 /* ContentView.swift in Sources */,
+				083B825D2A39B25A00E86BA8 /* InputView.swift in Sources */,
 				083B82242A38A6BE00E86BA8 /* NEROV2App.swift in Sources */,
 				083B82302A38A6C000E86BA8 /* NEROV2.xcdatamodeld in Sources */,
 			);
