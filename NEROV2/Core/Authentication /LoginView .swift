@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct LoginView_: View {
+    
+    @State private var email = ""
+    @State private var password = ""
+    
     var body: some View {
         NavigationStack{
             
@@ -20,6 +24,15 @@ struct LoginView_: View {
                     .padding(.vertical, 32)
                 
                 //form fields
+                VStack (spacing: 24) {
+                    
+                    InputView (text: $email, title: "Email Address", placeholder: "Name@username")
+                        .autocapitalization(.none)
+                    
+                    
+                    InputView (text: $password, title: "Password", placeholder: "Enter Your Password")
+                        .autocapitalization(.none)
+                }
                 
                 //signinbutton
                 Spacer()
