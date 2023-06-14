@@ -52,12 +52,23 @@ struct LoginView_: View {
             }
                 .background(Color(.systemBlue))
                 .cornerRadius(10)
+                .padding(.top, 20)
                 
                 
                                  
                 Spacer()
                 //signupbotton
                 
+                NavigationLink{
+                }label:
+                {
+                    
+                    HStack{
+                        Text("Dont Have An Account")
+                        Text("Sign Up")
+                    }
+                
+                }
               
             }
             
