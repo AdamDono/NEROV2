@@ -13,6 +13,10 @@ struct LoginView_: View {
             
             VStack{
                 //image
+                Image("nero-low-resolution-logo-color-on-transparent-background")
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width:100, height:120)
                 
                 //form fields
                 
